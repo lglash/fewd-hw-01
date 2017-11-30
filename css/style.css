@@ -1,7 +1,8 @@
 header, body, footer {
 	font-family: sans-serif; 
 }
-p{
+
+p {
 	font-family: serif;
 }
 
@@ -9,28 +10,54 @@ h1 {
 	justify-content: center;
 }
 
-.index {
-	text-align: center;
-}
-
-.intro {
-	border-top: 1px solid gray;
-}
-
-img {
-justify-content: right;
-}
-
-}
-div h2, div p {
-	border-top: 1px solid gray;
+body {
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	padding-bottom: 50px;
 }
 
 footer {
 	text-align: center;
-padding-top: 8px;
-border-top: 1px solid gray;
 }
+
+.intro {
+	text-align: left;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+.intro img {
+	overflow: auto;
+	float: right;
+	height: 100px;
+	width: 100px;
+	padding left: 20px;
+}
+
+.index {
+	padding-top: 25px;
+	text-align: center;
+	color: black;
+	text-decoration: none;	
+}
+
 .education li {
 	font-family: sans-serif;
+	line-height: 1.5;
 	}
+
+footer {
+text-align: center;
+padding-top: 12px;
+padding-bottom: 12px;
+}
+
+footer a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: yellow;
+}
+
